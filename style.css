@@ -1,0 +1,174 @@
+:root{
+    --color-tomate: #ff3b30;
+    --color-tomatefonce: #AD271F;
+    --color-tomatelight: rgba(255, 58, 48, 0.301);
+    --color-carottefonce: #BF7809;
+    --color-carotte: #FF9F0A;
+    --color-carottelight: (255, 157, 10, 0.301)F9F0A; 
+    --color-manguefonce: #D2B10B; 
+    --color-mangue: #FFD60A;
+    --color-manguelight: rgba(255, 214, 10, 0.301);
+    --color-kiwifonce: #309642; 
+    --color-kiwi: #40C057;
+    --color-kiwilight: rgba(64, 192, 87, 0.301); 
+    --color-noir: #000000; 
+    --color-cendres: #4B4B4B; 
+    --color-gris: #BABBBB;
+    --color-cielnuit: #0763C0; 
+    --color-ciel: #0A84FF;
+     --space-sm: 25px;
+     --space-xs: 15px;
+     --space-md: 35px;
+     --space-xl: 45px; 
+     --font-titles: "SF Pro Display", sans-serif;
+     --font-body: "SF Pro Display", sans-serif;
+     --border-size: 5px; 
+     
+
+}
+
+.taille {
+    height: 3rem;
+    width: 10rem;
+}
+
+.tomate {
+    background-color: var(--color-tomate);
+}
+
+.tomatefonce {
+    background-color: var(--color-tomatefonce);
+}
+
+.tomatelight{
+    background-color: var(--color-tomatelight);
+}
+
+.carottefonce {
+    background-color: var( --color-carottefonce);
+}
+
+.carotte {
+    background-color: var( --color-carotte);
+}
+
+.carottelight {
+    background-color: var( --color-carottelight);
+}
+
+.manguefonce {
+    background-color: var( --color-manguefonce);
+}
+
+.mangue {
+    background-color: var( --color-mangue);
+}
+
+.manguelight {
+    background-color: var( --color-manguelight);
+}
+
+.kiwifonce {
+    background-color: var(--color-kiwifonce);
+}
+
+.kiwi {
+    background-color: var(--color-kiwi);
+}
+
+.kiwilight {
+    background-color: var(--color-kiwilight);
+}
+
+.noir {
+    background-color: var(--color-noir);
+}
+
+.cendres {
+    background-color: var(--color-cendres);
+}
+
+.gris {
+    background-color: var(--color-gris);
+}
+
+.ciel {
+    background-color: var(--color-ciel);
+}
+
+.cielnuit {
+    background-color: var(--color-cielnuit);
+}
+
+.btn {
+    padding: var(--space-sm);
+    background-color: var(--color-tomate);
+}
+.btn-primary{
+    background: var(--color-tomate)
+}
+.btn-primary:focus{
+    outline: 4px solid var(--color-tomatefonce);
+    border: var(--border-size) 5px; 
+}
+.btn-primary:hover{
+background:  var(--color-tomatefonce)
+
+}
+.btn-primary:active{
+    order: var(--border-size) solid var(--color-tomate)
+}
+.btn-primary:disabled{
+order: var(--border-size) solid var(--color-tomatelight)
+}
+.btn-secondary{
+    background:  var(--boder-size) solid var(--color-carotte);
+    background-color: var(--color-carotte);
+    
+}
+.btn-secondary:hover{
+    background-color: var(--color-carottefonce)
+
+}
+.btn-third{
+    background-color: var(--color-mangue)
+}
+.btn-third:hover{
+    background-color: var(--color-manguefonce)}
+.btn-fourth{
+    background-color: var(--color-kiwi)
+}    
+.btn-fourth:hover{
+    background-color: var(--color-kiwifonce)
+}
+.btn-fifth{
+    background-color: var(--color-ciel);
+    border-radius: 6px solid var(--color-ciel);
+    transition: outline 0.6s linear
+}
+
+.btn-fifth:hover{
+    background-color: var(--color-cielnuit);
+    
+}
+
+.bordure:btn{
+    border: 16px var(--color-cielnuit); 
+}
+
+
+
+.btn-primary:hover {
+  box-shadow: 0 0 11px rgba(33,33,33,.2); 
+}
+.btn-secondary:hover {
+  box-shadow: 0 0 11px rgba(33,33,33,.2); 
+}
+.btn-third:hover {
+  box-shadow: 0 0 11px rgba(33,33,33,.2); 
+}
+.btn-fourth:hover {
+  box-shadow: 0 0 11px rgba(33,33,33,.2); 
+}
+
+
