@@ -152,10 +152,6 @@ order: var(--border-size) solid var(--color-tomatelight)
     
 }
 
-.bordure:btn{
-    border: 16px var(--color-cielnuit); 
-}
-
 
 
 .btn-primary:hover {
@@ -171,4 +167,6 @@ order: var(--border-size) solid var(--color-tomatelight)
   box-shadow: 0 0 11px rgba(33,33,33,.2); 
 }
 
-
+.btn-primary:focus {
+  outline: 3px dotted purple; 
+}
