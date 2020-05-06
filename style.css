@@ -27,6 +27,13 @@
 
 }
 
+#navbar {
+    border: black;
+    text-align: center;
+    font-family: sans-serif;
+    text-shadow: black;
+}
+
 .taille {
     height: 3rem;
     width: 10rem;
@@ -170,3 +177,4 @@ order: var(--border-size) solid var(--color-tomatelight)
 .btn-primary:focus {
   outline: 3px dotted purple; 
 }
+
